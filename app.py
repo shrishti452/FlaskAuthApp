@@ -92,4 +92,4 @@ def logout():
           return redirect('/login') 
 
 if __name__ == '__main__':
-    app.run(debug=True) # running the Flask application in debug mode
+    app.run() # running the Flask application in debug mode
