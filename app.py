@@ -91,5 +91,5 @@ def logout():
           session.pop('email',None)
           return redirect('/login') 
 
-if __name__ == '__main__':
+if __name__ == '_main_':
     app.run() # running the Flask application in debug mode
